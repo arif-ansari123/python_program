@@ -390,3 +390,8 @@ print(bin(dec), "in binary.")
 print(oct(dec), "in octal.")
 print(hex(dec), "in hexadecimal.")
 #-------------------------------------------------------------------------------------------------
+# Program to find the ASCII value of the given character
+
+c = 'p'
+print("The ASCII value of '" + c + "' is", ord(c))
+#---------------------------------------------------------------------------------------------------------
