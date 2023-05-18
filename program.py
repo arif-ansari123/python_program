@@ -590,3 +590,15 @@ elif num == 0:
 else:
    print("The factorial of", num, "is", recur_factorial(num))
 #----------------------------------------------------------------------------------------------------
+# Function to print binary number using recursion
+def convertToBinary(n):
+   if n > 1:
+       convertToBinary(n//2)
+   print(n % 2,end = '')
+
+# decimal number
+dec = 34
+
+convertToBinary(dec)
+print()
+#--------------------------------------------------------------------------------------------
