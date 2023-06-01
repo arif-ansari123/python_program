@@ -889,3 +889,9 @@ print(dict_1 | dict_2)
 from pathlib import Path
 Path("/root/dirA/dirB").mkdir(parents=True, exist_ok=True)
 #-----------------------------_------------------------------------------
+#Python Program to Flatten a Nested List
+my_list = [[1], [2, 3], [4, 5, 6, 7]]
+
+flat_list = [num for sublist in my_list for num in sublist]
+print(flat_list)
+#-----------------------------_------------------------------------------
