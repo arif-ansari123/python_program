@@ -923,3 +923,7 @@ for i in range(1, rows+1):
     count1 = count = k = 0
     print()
 #-----------------------------_------------------------------------------
+my_list = [21, 44, 35, 11]
+
+for index, val in enumerate(my_list):
+    print(index, val)
