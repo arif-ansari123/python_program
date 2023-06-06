@@ -927,3 +927,8 @@ my_list = [21, 44, 35, 11]
 
 for index, val in enumerate(my_list):
     print(index, val)
+my_list = [[1], [2, 3], [4, 5, 6, 7]]
+
+flat_list = [num for sublist in my_list for num in sublist]
+print(flat_list)      
+      
